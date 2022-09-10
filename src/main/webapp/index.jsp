@@ -84,7 +84,7 @@ button:hover {
 		String loginUrl = getServletContext().getContextPath().concat("/login");
 		%>
 
-		<form method="post" class="card" action=action=<%=loginUrl%>>
+		<form method="post" class="card" action=<%=loginUrl%>>
 			<h3>Employee Login</h3>
 			<input type="hidden" name="home" value="employee" />
 			<div>
